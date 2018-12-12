@@ -1,0 +1,37 @@
+html {box-sizing:border-box;}
+*, *:after, *:before {box-sizing:inherit;}
+
+#tabs{
+	padding: 0;
+	margin: 0;
+}
+
+#container{
+	height: 237px;
+	width:604px;
+	background-color: #ccc;
+	border: 2px solid rgb(0,171,187);
+}
+
+li{
+	list-style: none;
+	height: 50px;
+	width: 600px;
+	background-color: rgb(0,191,208);
+	cursor: pointer;
+}
+
+li:hover{
+	background-color: rgb(0,213,233);
+}
+
+p{
+	padding: 10px;
+	margin: 0;
+	font-size: 12px;
+}
+
+#sect1, #sect2, #sect3{
+	height: 83px;
+	width: 600px;
+}
