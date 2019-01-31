@@ -32,12 +32,12 @@ li:hover{
 
 .sect{
 	overflow: hidden;
-	height: 0;
+	height: 0px;
 	transition: height .5s;
 }
 
-.sect.nums{
-	height:200px;
+.sect.open{
+	height: 200px;
 }
 
 p{
@@ -46,7 +46,7 @@ p{
 	font-size: 12px;
 }
 
-.sect{
+#div1, #div2, #div3{
 	width: 600px;
 	background-color: #ccc;
 }

@@ -1,12 +1,9 @@
 $(document).ready(function(){
 	$("#tabs").on('click', 'li',function(){
-		var sibling = $(this).siblings('.sec')
-
-		$(".sect").removeClass('nums')
-		sibling.addClass('nums')
+		// var sect = $(this).siblings('.sect')
+		// $('.sect').removeClass('open')
+		// sect.addClass('open')
+		$('.sect').removeClass('open')
+		$(this).find('+ .sect').addClass('open')
 	})
-	console.log(this)
-
-	
-
 })
